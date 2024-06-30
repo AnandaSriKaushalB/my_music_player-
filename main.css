@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:aquamarine;
+}
+#legit{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    /* display flix is basically used to convert block level to inline */
+    display: flex;
+    justify-content: center;
+}
+#legit>article{
+    height: 80px;
+    width: 75%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+#legit>article>a{
+    height: 80px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#legit>article>a>.logo>svg{
+    width: 38%;
+    fill: white;
+}
+#legit>article>a:hover{
+    color: rgb(17, 210, 17);
+}
+#legit>article>.menu{
+    height: 80px;
+    width: 50%;
+    /* background-color: aliceblue; */
+    
+}
+#legit>article>.menu>ol{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+#legit>article>.menu>ol>li>a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#legit>article>.menu>ol>li>.z{
+    color: rgba(226, 224, 224, 0.995);
+}
+
+#legit>article>.menu>ol>li>a:hover{
+    color: rgb(17, 210, 17);
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(./assets/SP0Ihkv-space-wallpapers.jpg);
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+} 

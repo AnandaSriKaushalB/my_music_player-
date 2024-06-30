@@ -1,0 +1,465 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#a{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(green,rgb(18, 18, 18),rgb(15, 15, 15),rgb(10, 10, 10),rgb(10, 10, 10),black);
+}
+#legit{
+    height: 80px;
+    width: 100%;
+    /* background-color: black; */
+    /* display flix is basically used to convert block level to inline */
+    display: flex;
+    justify-content: center;
+}
+#legit>article{
+    height: 80px;
+    width: 75%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+#legit>article>a{
+    height: 80px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#legit>article>a>.logo>svg{
+    width: 38%;
+    fill: white;
+}
+#legit>article>a:hover{
+    color: rgb(17, 210, 17);
+}
+#legit>article>.menu{
+    height: 80px;
+    width: 50%;
+    /* background-color: aliceblue; */
+    
+}
+#legit>article>.menu>ol{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+#legit>article>.menu>ol>li>a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#legit>article>.menu>ol>li>.z{
+    color: rgba(226, 224, 224, 0.995);
+}
+
+#legit>article>.menu>ol>li>a:hover{
+    color: rgb(17, 210, 17);
+}
+#a>#b{
+    height: 80%;
+    width: 50%;
+    /* border: 2px solid red; */
+    margin-top: 25px;
+    margin-left: 30%;
+}
+#a>#b>#c{
+    color: var(--text-subdued,#6a6a6a);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+    font-size: 15px;
+    margin-left: 15px;
+}
+#a>#b>#d{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+#a>#b>#e{
+    color: #6a6a6a;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+    margin-left: 15px;
+}
+#a>#b>#e>a{
+    color: white;
+}
+#a>#b>#f{
+    margin-top: 45px;
+    height: 45px;
+    background-color: white;
+    width: 75%;
+    border-radius: 3px;
+    display: flex;
+    margin-left: 15px;
+}
+#a>#b>#f>#g{
+    height: 100%;
+    width: 45px;
+    /* border: 2px solid red; */
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+#a>#b>#f>#h{
+    height: 45px;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: 15px;
+}
+#a>#b>#f>#h>input{
+    border: none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+#a>#b>#i{
+    margin-top: 30px;
+    height: 15vh;
+    width: 80%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 20px;
+    /* overflow: hidden; */
+}
+#a>#b>#m{
+    margin-top: 20px;
+    height: 15vh;
+    width: 80%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 20px;
+}
+#a>#b>#i>#j{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-top: 12px;
+    background-color: rgb(175, 40, 150);
+    overflow: hidden;
+}
+#a>#b>#i>#j>aside{
+    height: 70px;
+    width: 70px;
+    /* border: 2px solid red; */
+    rotate: 25deg;
+    margin-left: 120px;
+    background-image: url(./assets/hand.webp);
+    /* overflow: hidden; */
+}
+#a>#b>#i>#k{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-top: 12px;
+    background-color: rgb(83, 122, 161);
+    overflow: hidden;
+}
+#a>#b>#i>#k>aside{
+    height: 70px;
+    width: 70px;
+    /* border: 2px solid red; */
+    rotate: 25deg;
+    margin-left: 120px;
+    background-image: url(./assets/2ndhand.webp);
+    /* overflow: hidden; */
+}
+#a>#b>#i>#l{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-top: 12px;
+    background-color: rgb(140, 25, 50);
+    overflow: hidden;
+}
+#a>#b>#i>#l>aside{
+    height: 70px;
+    width: 70px;
+    /* border: 2px solid red; */
+    rotate: 25deg;
+    margin-left: 120px;
+    background-image: url(./assets/3rdhand.png);
+    /* overflow: hidden; */
+}
+#a>#b>#m>#n{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-top: 12px;
+    background-color: rgb(176, 98, 57);
+    overflow: hidden;
+}
+#a>#b>#m>#n>aside{
+    height: 70px;
+    width: 70px;
+    /* border: 2px solid red; */
+    rotate: 25deg;
+    margin-left: 120px;
+    background-image: url(./assets/4thhand.webp);
+    /* overflow: hidden; */
+}
+#a>#b>#m>#o{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-top: 12px;
+    background-color: rgb(0, 100, 80);
+    overflow: hidden;
+}
+#a>#b>#m>#o>aside{
+    height: 70px;
+    width: 70px;
+    /* border: 2px solid red; */
+    rotate: 25deg;
+    margin-left: 120px;
+    background-image: url(./assets/5thhand.webp);
+    /* overflow: hidden; */
+}
+#a>#b>#m>#p{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-top: 12px;
+    background-color: rgb(117, 117, 117);
+    overflow: hidden;
+}
+#a>#b>#m>#p>aside{
+    height: 70px;
+    width: 70px;
+    /* border: 2px solid red; */
+    rotate: 25deg;
+    margin-top: -15px;
+    margin-left: 120px;
+    background-image: url(./assets/6thhand.png);
+    /* overflow: hidden; */
+}
+#kl{
+    height: 50vh;
+    width: 100%;
+    background-color: rgb(23, 22, 22);
+}
+#kl>h1{
+    font-size: 46px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 55px;
+}
+#kl>p{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 17px;
+}
+#kl>button{
+    padding: 15px 50px;
+    border-radius: 30px;
+    background-color: #1fdf64;
+    margin-left: 43%;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#kl>button:hover{
+    cursor: pointer;
+}
+#ghf{
+    height: 66vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+#ghf>#ghjk{
+height: 54vh;
+width: 21%;
+/* border: 2px solid red; */
+/* padding-top: 40px; */
+}
+#ghf>#ghjk>.pogo{
+height: 20%;
+width: 40%;
+/* border: 2px solid red; */
+margin-left: 25vh;
+padding-top: 95px;
+}
+#ghf>#ghjk>.pogo{
+
+    display: flex;
+    align-items: center;
+    
+}
+#ghf>#ghjk>.pogo>svg{
+    width: 100%;
+    fill: white;
+}
+#ghf>#fgsh{
+    height: 54vh;
+    width:50%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+#ghf>#fgsh>.a{
+    height: 100%;
+    width: 28%;
+    /* border: 2px solid red; */
+    margin-left: 30px;
+}
+#ghf>#fgsh>#b{
+    height: 100%;
+    width: 28%;
+    /* border: 2px solid red; */
+    /* margin-left: 30px; */
+}
+#ghf>#fgsh>#c{
+    height: 100%;
+    width: 28%;
+    /* border: 2px solid red; */
+    /* margin-left: 30px; */
+}
+#ghf>#fgsh>aside>h1{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-top: 92px;
+    letter-spacing: 1px;
+}
+#ghf>#fgsh>aside>a{
+    margin-top: 40px;
+    color: white;
+    /* line-height: 40px; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 40px;
+}
+#ghf>#fgsh>aside>a>p{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+#ghf>#fgsh>aside>a:hover{
+color: rgb(17, 210, 17);
+}
+#ghf>#defg{
+    height: 35vh;
+    width: 35vh;
+    /* border: 2px solid red; */
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 100px;
+}
+#ghf>#defg>article{
+    height: 57px;
+    width: 57px;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    background-color: rgb(40, 39, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ghf>#defg>article>a>.fa-instagram{
+    font-size: 30px;
+}
+#ghf>#defg>article>a>.fa-twitter{
+    font-size: 22px;
+}
+#ghf>#defg>article>a>.fa-facebook-f{
+    font-size: 22px;
+}
+#ghf>#defg>article>a>.fa-facebook-f :hover{
+    color: rgb(17, 210, 17);
+}
+
+.gg>article>.content>button:hover{
+    transform: scale(1.2) !important;
+    cursor: pointer !important;
+    transition: all 0.1s ease-in-out !important;
+}
+/* .defg>article>a>i:hover{
+    transform: scale(1.2);
+    transition: all 0.1s ease-in-out;
+} *//* a :hover{
+    color: rgb(17, 210, 17);
+} */
+.hv:hover{
+    transform: scale(1.2) !important;
+    transition: all 0.1s ease-in-out !important;
+    color: rgb(17, 210, 17) !important;
+}
+.adf{
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    height: 575px;
+    bottom: -133px;
+    z-index: 1;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.adf>img{
+    width: 300px;
+    height: 445px;
+    margin-right: 107vh;
+    margin-top: -28px;
+}
+#trf{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    /* border: 2px solid red */
+}
+button:hover{
+    transform: scale(1.11);
+}
+#trf>#yt{
+    height: 70%;
+    width: 55%;
+    /* border: 2px solid red; */
+    margin-left: 130px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 25px;
+    letter-spacing: 0.5px;
+}
+#trf>#yt>a{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(173, 171, 171);
+}
+#trf>#yt>a:hover{
+color: rgb(17, 210, 17);
+}

@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+#legit{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    /* display flix is basically used to convert block level to inline */
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#legit>article{
+    height: 80px;
+    width: 75%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+#legit>article>a{
+    height: 80px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#legit>article>a>.logo>svg{
+    width: 38%;
+    fill: white;
+}
+section{
+    height: 102vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section>article{
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid red; */
+    
+}
+section>article>h1{
+    color: white;
+    font-size: 45px;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section>article>form{
+    margin-left: 60px;
+}
+section>article>.a{
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+}
+section>article>form>input{
+    height: 45px;
+    width: 84%;
+    margin-top: 8px;
+    border-radius: 4px;
+    background-color: black;
+    border: 1px solid grey;
+    padding-left: 15px;
+}
+section>article>form>input:hover{
+    border: 2px solid white;
+}
+section>article>button{
+    margin-left: 60px;
+    margin-top: 20px;
+    padding: 17px 150px;
+    border-radius: 30px;
+    background-color: #1ed760;
+    font-size: 14px;
+    font-weight: bolder;
+    border: 0px;
+}
+section>article>button:hover{
+    background-color: #65f396;
+    cursor: pointer;
+}
+p{
+    margin-left: 60px;
+    margin-top: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+section>article>aside{
+    margin-top: 30px;
+    border-radius: 30px;
+    height: 50px;
+    width: 73%;
+    display: flex;
+    margin-left: 60px;
+    /* background-color: blue; */
+    border: 2px solid grey;
+}
+section>article>aside:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+section>article>aside>section{
+    width: 10%;
+    height: 95%;
+    margin-left: 30px;
+    margin-top: 2px;
+}
+section>article>aside>section>svg{
+    margin-left: 4px;
+}
+section>article>aside>article{
+    width: 70%;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bolder;
+    color: white;
+}
+.b{
+    margin-top: 10px;
+}
+section>article>#i{
+    margin-top: 70px;
+    font-size: 15px;
+    margin-left: 90px;
+    color: var(--text-subdued,#6a6a6a);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+section>article>#j{
+    font-size: 10px;
+    color: var(--text-subdued,#6a6a6a);
+    margin-top: 30px;
+    margin-left: 100px;
+}
